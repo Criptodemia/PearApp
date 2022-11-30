@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== SWIPER CSS ===============-->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+        <!--===============  CSS STYLE SHEET LINK  ===============-->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== TITLE ====================-->
+        <title>PearApp</title>
+
+    </head>
+    <body>
+
+        /*==================== LOADER ====================*/
+        <div class="load" id="load">
+            <span class="loader"></span>
+        </div>
+        
+        <!--===============  HEADER  ===============-->
+        <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo"><img src="images/Pearlogo.svg" alt=""></a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> Products
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#value" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i> Resources
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#service" class="nav_link">
+                            <i class="uil uil-bag-alt nav_icon"></i> Faqs
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#info" class="nav_link">
+                            <i class="uil uil-desktop-alt nav_icon"></i> About us
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#info" class="btn nav_link">
+                            Get started
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+        </header>
+        
+        <!--====================  MAIN  ====================-->
+        <main class="main" id="main">
+            
+            <!--====================  HOME  ====================-->
+            <section class="home section" id="home">
+                <div class="home_container">
+
+                    <div class="home_content">
+                       <h1> Investement? Try <span> Pear </span> first </h1>
+                       <p> We help you choose the investment provider
+                        that resonates with YOU </p>
+                        <!-- <div class="home_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Venenatis in quam lectus non euismod lacus tortor, 
+                            viverra pharetra. Morbi morbi egestas morbi pharetra 
+                        </div> -->
+                       <a href="#contact" class="btn_home"> Get Started </a>
+                    </div>
+              
+                    <div class="home_image">
+                       <img src="images/Home.svg" alt="">
+                    </div>
+              
+                 </div>
+            </section>
+
+            <!--====================  ABOUT  ====================-->
+            <section class="about primary section" id="about">
+
+                <div class="about_row">
+            
+                    <div class="about_image">
+                        <img src="images/About.svg" alt="">
+                    </div>
+                
+                    <div class="about_content">
+                        <h1> Goodbye Conflicts of Interest </h1>
+                        <p>Our proprietary algorithm will present you the
+                            results that best match your criteria, not the
+                            ones that will pay us more commission.</p>
+                    </div>
+            
+                </div>
+            </section>
+
+            <!--====================  ABOUT  ====================-->
+            <section class="about section" id="value">
+
+                <div class="about_row two">
+            
+                    <div class="about_content">
+                        <h1> Goodbye Conflicts of Interest </h1>
+                        <p>Our proprietary algorithm will present you the
+                            results that best match your criteria, not the
+                            ones that will pay us more commission.</p>
+                    </div>
+
+                    <div class="about_image">
+                        <img src="images/About2.svg" alt="">
+                    </div>
+                
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <div class="base_popular_container">
+                    <h1 class="section_title">
+                        Start with us<span></span>
+                    </h1>
+
+                    <h3 class="section_subtitle_popular">How cool is that? We will ask you a set of questions,
+                        and our algorithm will do the magic</h3>
+
+                    <div class="popular_container swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular1.png" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>First</span> invest?
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Start with pear
+                                    </h3>
+                                    <p class="popular_description">
+                                        Lorem ipsum dolor sit amet consectetur. 
+                                        Gravida facilisis sollicitudin risus eu 
+                                        consectetu
+                                    </p><a href="#info" class="btn nav_link">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular2.png" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>Search</span> with Pear
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Start with pear
+                                    </h3>
+                                    <p class="popular_description">
+                                        Lorem ipsum dolor sit amet consectetur. 
+                                        Gravida facilisis sollicitudin risus eu 
+                                        consectetu
+                                    </p><a href="#info" class="btn nav_link">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular3.png" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>Invest</span> on ETF's
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Start with pear
+                                    </h3>
+                                    <p class="popular_description">
+                                        Lorem ipsum dolor sit amet consectetur. 
+                                        Gravida facilisis sollicitudin risus eu 
+                                        consectetu
+                                    </p><a href="#info" class="btn nav_link">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular4.png" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>Invest</span> on CDF's
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Start with pear
+                                    </h3>
+                                    <p class="popular_description">
+                                        Lorem ipsum dolor sit amet consectetur. 
+                                        Gravida facilisis sollicitudin risus eu 
+                                        consectetu
+                                    </p><a href="#info" class="btn nav_link">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="images/popular5.png" alt="" class="popular_img">
+
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>Invest</span> on Crypto
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Start with pear
+                                    </h3>
+                                    <p class="popular_description">
+                                        Lorem ipsum dolor sit amet consectetur. 
+                                        Gravida facilisis sollicitudin risus eu 
+                                        consectetu
+                                    </p><a href="#info" class="btn nav_link">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left' ></i>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container_services" id="services">
+
+                <h1 class="section_title services">Our amazing services</h1>
+                <p class="section_subtitle services">Lorem ipsum dolor sit amet consectetur. 
+                    Gravida facilisis sollicitudin risus eu consectetur 
+                    nibh eu eu. Tellus vitae aliquet sem etiam. Bibendum 
+                    ut faucibus dignissim ultrices nunc. Netus senectus 
+                    pulvinar facilisis non eu risus odio sit.</p>
+
+                <div class="services__container  bd-grid_services">
+                    <div class="services__content">
+                        <h1 class="services__title">+40</h1>
+                        <p class="services__description">Projects completed</p>
+                    </div>
+
+                    <div class="services__content">
+                        <h1 class="services__title">10k</h1>
+                        <p class="services__description">Clients on word</p>
+                    </div>
+
+                    <div class="services__content">
+                        <h1 class="services__title">%100</h1>
+                        <p class="services__description">Return on Invest</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--====================  ABOUT  ====================-->
+            <section class="about section" id="about">
+
+                <div class="about_row">
+                
+                    <div class="about_content">
+                        <h1> Goodbye Conflicts of Interest </h1>
+                        <p>Our proprietary algorithm will present you the
+                            results that best match your criteria, not the
+                            ones that will pay us more commission.</p>
+                    </div>
+
+                    <div class="about_image">
+                        <img src="images/About3.svg" alt="">
+                    </div>
+            
+                </div>
+            </section>
+
+            <!--========== SUBSCRIBE ==========-->
+            <section class="send section">
+                
+                <div class="send__img">
+                    <img src="images/Send.svg" alt="">
+                </div>
+
+                <div class="subscribe_container">
+                    
+                    <h1 class="section_title_send">
+                        Don't just compare, come and <span> Pear</span>
+                    </h1>
+                    <h2 class="section_subtitle_send">Subscribe to our Newsletter</h2>
+    
+                    <div class="send__container bd-container bd-grid">
+    
+                        <div class="send__content">
+                            <!-- <h2 class="send__title"></h2> -->
+                            <p class="send__description">Pear is brought to you by finance professiona ls, traders and
+                                investors that know the industry from within</p>
+                            <form action="" class="send_form">
+                                <div class="send__direction">
+                                    <input type="text" placeholder="Email" class="send__input">
+                                </div>
+                                <a href="#" class="btn_send">Send</a>
+                            </form>
+                        </div>
+    
+                    </div>
+
+                </div>
+                
+            </section>
+
+
+        <!--====================  CONTACT  ====================-->
+            <section class="contact section" id="contact">
+            
+                <div class="container">
+
+                    <div class="row">
+
+                        <form action="https://formsubmit.co/abelg896@gmail.com" method="POST">
+                            <h1 class="section_title_contact"> Contact us </h1>
+                            <h3 class="section_subtitle_contact">Our team are ready for your questions</h3>
+                            <div class="form_name">
+                                <input type="text" required placeholder="First name" maxlength="50" name="name" class="box"> 
+                                <input type="text" required placeholder="Last name" maxlength="50" name="name" class="box"> 
+                            </div>
+                            <input type="email" required placeholder="Email" maxlength="50" name="email" class="box">
+                            <input type="number" required placeholder="Phone number" max="9999999999" min="0" name="number" class="box" onkeypress="if(this.value.length == 12) return false;">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="text" required placeholder="Send us a message" maxlength="200" name="message" class="box form_message">
+                            <input type="submit" value="Send" class="btn_contact" name="send">
+                        </form>
+    
+                        <div class="image">
+                            <img src="images/Home.svg" alt="">
+                        </div>
+                
+                    </div>
+                </div>
+            
+            </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer_section">
+            <div class="footer_container container grid">
+                <div>
+                    <a href="#" class="footer_logo"><img src="images/Pearlogoalt.svg" alt=""></a>
+
+                    <p class="footer_description">
+                        Our vision is to make all people <br> 
+                        the best place to live for them.
+                    </p>
+                </div>
+
+                <div class="footer_content">
+                    <div>
+                        <h3 class="footer_title">
+                            About
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">Features</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">News & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Company
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">How We Work?</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">Capital</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">Security</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Support
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">FAQs</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">Support center</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Follow us
+                        </h3>
+
+                        <ul class="footer_social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="footer_social-link">
+                                <i class="uil uil-twitter"></i>
+                            </a>
+
+                            <a href="https://www.pinterest.com/" target="_blank" class="footer_social-link">
+                                <i class="uil uil-facebook"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_info container">
+                <span class="footer_copy">
+                    &#169; Bedimcode. All rigths reserved
+                </span>
+
+                <div class="footer_privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!--=============== INDEX JS ===============-->
+        <script src="js/index.js"></script>
+
+
+    </body>
+</html>
